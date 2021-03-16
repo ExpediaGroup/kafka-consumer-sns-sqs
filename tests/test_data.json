@@ -1,0 +1,16 @@
+{
+	"metricData": {
+		"metricDefinition": {
+			"tags": {
+				"kv": {
+					"what": "test",
+					"application": "testapp",
+					"environment": "testenv"
+				}
+			}
+		}
+	},
+	"anomalyResult": {
+		"anomalyLevel": "STRONG"
+	}
+}

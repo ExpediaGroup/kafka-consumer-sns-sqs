@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest-cov = "*"
+pytest = "*"
+pylint = "*"
+pipenv-setup = "*"
+black = "*"
+flake8 = "*"
+pytest-docker-compose = "*"
+testfixtures = "*"
+pytest-env = "*"
+pytest-catchlog = "*"
+
+[packages]
+boto3 = "*"
+importlib-metadata = "==1.7.0"
+kafka-consumer-sns-sqs = {editable = true, path = "."}
+kafka-python = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
